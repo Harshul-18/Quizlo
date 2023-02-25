@@ -24,7 +24,7 @@ html {
 }
 
 .inner-div {
-    width: 60vw;
+    width: 90vw;
     background-color: rgba(84, 0, 0, 0.2);
     backdrop-filter: blur(500px);
     border-radius: 2rem;
