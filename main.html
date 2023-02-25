@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quizlo</title>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Varela+Round&display=swap');
+
+		* {
+			margin: 0;
+			padding: border-box;
+			box-sizing: border-box;
+			font-family: "Varela Round", sans-serif;
+			font-weight: 300;
+		}
+
+		body {
+			background-image: url("./assets/bg_1.png");
+			background-size: cover;
+			background-repeat: no-repeat;
+			margin: 0;
+		}
+
+		.main-div {
+			width: 100vw;
+			min-height: 100vh;
+			display: grid;
+			place-items: center;
+			background-size: cover;
+			background-position: center;
+		}
+
+		.inner-div {
+			background-color: rgba(101, 0, 106, 0.2);
+			max-width: 400px;
+			backdrop-filter: blur(100px);
+			padding: 1rem;
+			border: 0.5px solid rgba(255, 255, 255, 0.4);
+			border-radius: 1.2rem;
+			box-shadow: 0 1rem 1rem -0.4rem rgba(0, 0, 0, 0.4);
+			overflow: hidden;
+		}
+		
+		.inner-div h1 {
+			color: rgba(255, 235, 235, 0.8);;
+			text-align: center;
+			padding: 14px 16px;
+		}
+
+		.inner-div a {
+			float: left;
+			color: rgba(255, 235, 235, 0.8);
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			font-size: 17px;
+			transition: color 0.3s ease;
+		}
+		
+		.inner-div a:hover {
+			color: rgb(255, 92, 230);
+		}
+	</style>
+</head>
+<body>
+	<div class="main-div">
+		<div class="inner-div">
+			<h1>Quizlo</h1>
+			<a href="#" id="numpy">Numpy</a>
+			<a href="#" id="pandas">Pandas</a>
+			<a href="#" id="scipy">SciPy</a>
+		</div>
+	</div>
+	<script>
+		document.getElementById("numpy").addEventListener("click", function() {
+			window.location.href = "./numpy_quiz/quiz.html";
+		});
+
+		document.getElementById("pandas").addEventListener("click", function() {
+			window.location.href = "./pandas_quiz/quiz.html";
+		});
+
+		document.getElementById("scipy").addEventListener("click", function() {
+			window.location.href = "./scipy_quiz/quiz.html";
+		});
+	</script>
+</body>
+</html>
