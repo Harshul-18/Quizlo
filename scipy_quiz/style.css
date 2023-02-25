@@ -33,7 +33,7 @@ h1 {
 }
 
 .inner-div {
-    width: 40vw;
+    width: 60vw;
     background-color: rgba(84, 0, 0, 0.2);
     backdrop-filter: blur(500px);
     border-radius: 2rem;
