@@ -25,7 +25,7 @@ html {
 }
 
 h1 {
-    color: rgba(255, 235, 235, 0.6);;
+    color: rgba(235, 255, 235, 0.6);;
     text-align: center;
     font-size: 70;
     font-weight: bold;
@@ -34,12 +34,12 @@ h1 {
 
 .inner-div {
     width: 90vw;
-    background-color: rgba(84, 0, 0, 0.2);
+    background-color: rgba(0, 84, 0, 0.2);
     backdrop-filter: blur(500px);
     border-radius: 2rem;
-    border: 0.5px solid rgba(255, 149, 149, 0.4);
+    border: 0.5px solid rgba(149, 255, 149, 0.4);
     box-shadow: 0 1rem 1rem -0.4rem rgba(0, 0, 0, 0.4);
-    color: rgba(255, 235, 235, 0.6);
+    color: rgba(235, 255, 235, 0.6);
     padding: 32px;
 }
 
@@ -75,7 +75,7 @@ input {
     width: 2rem;
     height: 2rem;
     border-radius: 50%;
-    background-color: rgba(195, 0, 0, 0.37);
+    background-color: rgba(0, 195, 0, 0.37);
 }
 
 .answer:checked + label:after {
@@ -86,7 +86,7 @@ input {
     width: 1.4rem;
     height: 1.4rem;
     border-radius: 50%;
-    background-color: rgba(255, 0, 64, 0.9);
+    background-color: rgba(0, 255, 64, 0.9);
 }
 
 .inner-div label {
@@ -95,7 +95,7 @@ input {
 }
 
 .inner-div label:hover {
-    color: rgba(255, 0, 64, 0.9);
+    color: rgba(0, 255, 64, 0.9);
 }
 
 #check, .btn {
@@ -109,9 +109,9 @@ input {
 }
 
 #check {
-    background-color: rgba(195, 0, 0, 0.37);
+    background-color: rgba(0, 195, 0, 0.37);
     border: none;
-    color: rgba(255, 235, 235, 0.6);
+    color: rgba(235, 255, 235, 0.6);
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
@@ -128,9 +128,9 @@ input {
 }
 
 #next {
-    background-color: rgba(195, 0, 0, 0.37);
+    background-color: rgba(0, 195, 0, 0.37);
     border: none;
-    color: rgba(255, 235, 235, 0.6);
+    color: rgba(235, 255, 235, 0.6);
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
@@ -147,12 +147,12 @@ input {
 }
 
 #check:hover {
-    background-color: rgba(255, 0, 64, 0.7);
+    background-color: rgba(0, 255, 64, 0.7);
     color: white;
 } 
 
 #next:hover {
-    background-color: rgba(255, 0, 64, 0.7);
+    background-color: rgba(0, 255, 64, 0.7);
     color: white; 
 }
 
@@ -163,7 +163,7 @@ input {
 #show-ans {
     background-color: rgba(0, 0, 0, 0.45);
     backdrop-filter: 100px;
-    color: rgba(255, 235, 235, 0.6);
+    color: rgba(235, 255, 235, 0.6);
     padding: 2rem;
     text-align: center;
     font-size: 24px; 
