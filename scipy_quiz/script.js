@@ -1,22 +1,64 @@
 const questions = [
      {
-       question: "What is the capital of India?",
-       options: ["Mumbai", "New Delhi", "Kolkata", "Chennai"],
-       correctAnswer: 1,
-       explanation: "New Delhi is the capital of India."
-     },
-     {
-       question: "What is the currency of Japan?",
-       options: ["Yuan", "Yen", "Dollar", "Euro"],
-       correctAnswer: 1,
-       explanation: "Yen is the currency of Japan."
-     },
-     {
-       question: "What is the national animal of Australia?",
-       options: ["Kangaroo", "Tasmanian devil", "Koala", "Emu"],
+       question: "What is sklearn short for?",
+       options: ["Scikit Learn", "SciPy Learn", "Scientific Learn", "Scikit Processing"],
        correctAnswer: 0,
-       explanation: "Kangaroo is the national animal of Australia."
-     }
+       explanation: "Scikit-learn is a machine learning library for Python, that provides a range of tools for building and working with machine learning models."
+     },
+     {
+       question: "Which of the following is NOT a type of supervised learning algorithm in Scikit-learn?",
+       options: ["Decision Tree", "Clustering", "Random Forest", "Support Vector Machine"],
+       correctAnswer: 1,
+       explanation: "Clustering is an unsupervised learning algorithm in Scikit-learn. The other three options are supervised learning algorithms."
+     },
+     {
+       question: "Which of the following is NOT a step in the typical machine learning workflow using Scikit-learn?",
+       options: ["Preprocessing data", "Evaluating model performance", "Deploying the model", "Training the model"],
+       correctAnswer: 2,
+       explanation: "Deploying the model is not a step in the typical machine learning workflow using Scikit-learn. The other three options are important steps in the process."
+     },
+     {
+       question: "Which of the following is NOT a type of kernel used in Support Vector Machines in Scikit-learn?",
+       options: ["Linear", "Polynomial", "Sigmoid", "K-means"],
+       correctAnswer: 3,
+       explanation: "K-Means is not a type of kernel used in Support Vector Machines in Scikit-learn. The other three options are valid types of kernels."
+     },
+     {
+       question: "Which of the following metrics can be used to evaluate a binary classification model in Scikit-learn?",
+       options: ["Mean Squared Error", "F1 Score", "R Squared", "Adjusted R Squared"],
+       correctAnswer: 1,
+       explanation: "F1 Score is a common metric used to evaluate the performance of binary classification models in Scikit-learn. Mean Squared Error, R Squared, and Adjusted R Squared are not typically used for binary classification problems."
+     },
+     {
+       question: "Which of the following is NOT a type of cross-validation technique available in Scikit-learn?",
+       options: ["K-Fold Cross Validation", "Stratified K-Fold Cross Validation", "Leave-One-Out Cross Validation", "K-Nearest Neighbors Cross Validation"],
+       correctAnswer: 3,
+       explanation: "K-Nearest Neighbors Cross Validation is not a type of cross-validation technique available in Scikit-learn. The other three options are valid types of cross-validation techniques."
+     },
+     {
+       question: "Which of the following is NOT a type of ensemble learning algorithm available in Scikit-learn?",
+       options: ["Random Forest", "AdaBoost", "Gradient Boosting", "Logistic Regression"],
+       correctAnswer: 3,
+       explanation: "Logistic Regression is not an ensemble learning algorithm in Scikit-learn. The other three options are valid ensemble learning algorithms."
+     },
+     {
+       question: "Which of the following is NOT a type of feature scaling technique available in Scikit-learn?",
+       options: ["StandardScaler", "MinMaxScaler", "MaxAbsScaler", "Z-ScoreScaler"],
+       correctAnswer: 3,
+       explanation: "Z-ScoreScaler is not a type of feature scaling technique available in Scikit-learn. The other three options are valid types of feature scaling techniques."
+     },
+     {
+       question: "Which of the following functions can be used to split a dataset into training and testing sets in Scikit-learn?",
+       options: ["train_test_split", "split_dataset", "split_train_test", "create_train_test_set"],
+       correctAnswer: 0,
+       explanation: "train_test_split."
+     },
+     {
+       question: "Which of the following Scikit-learn functions can be used to perform Principal Component Analysis (PCA)?",
+       options: ["LinearRegression", "DecisionTreeClassifier", "LogisticRegression", "PCA"],
+       correctAnswer: 3,
+       explanation: "PCA is a dimensionality reduction technique that can be used to transform a dataset into a lower-dimensional space. The PCA function in Scikit-learn can be used to perform PCA on a dataset. LinearRegression, DecisionTreeClassifier, and LogisticRegression are not functions used for PCA."
+     },
 ];
 
 const questionEl = document.getElementById("question");
