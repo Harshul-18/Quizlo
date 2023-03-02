@@ -59,6 +59,66 @@ const questions = [
        correctAnswer: 3,
        explanation: "PCA is a dimensionality reduction technique that can be used to transform a dataset into a lower-dimensional space. The PCA function in Scikit-learn can be used to perform PCA on a dataset. LinearRegression, DecisionTreeClassifier, and LogisticRegression are not functions used for PCA."
      },
+     {
+       question: "Which Scikit-learn function is used to evaluate the performance of a regression model?",
+       options: ["mean_absolute_error", "classification_report", "confusion_matrix", "accuracy_score"],
+       correctAnswer: 0,
+       explanation: "The mean_absolute_error function in Scikit-learn can be used to evaluate the performance of a regression model. The other three options are typically used to evaluate the performance of classification models."
+     },
+     {
+       question: "Which Scikit-learn function can be used to handle missing values in a dataset?",
+       options: ["Imputer", "StandardScaler", "MinMaxScaler", "OneHotEncoder"],
+       correctAnswer: 0,
+       explanation: "The Imputer function in Scikit-learn can be used to handle missing values in a dataset. StandardScaler, MinMaxScaler, and OneHotEncoder are used for feature scaling and encoding categorical features."
+     },
+     {
+       question: "Which Scikit-learn function is used to tune the hyperparameters of a machine learning model?",
+       options: ["GridSearchCV", "RandomForestClassifier", "KMeans", "PCA"],
+       correctAnswer: 0,
+       explanation: "GridSearchCV is a function in Scikit-learn that can be used to tune the hyperparameters of a machine learning model. RandomForestClassifier, KMeans, and PCA are specific machine learning models and techniques."
+     },
+     {
+       question: "Which Scikit-learn function can be used to perform text feature extraction?",
+       options: ["MinMaxScaler", "LabelEncoder", "StandardScaler", "CountVectorizer"],
+       correctAnswer: 3,
+       explanation: "CountVectorizer is a function in Scikit-learn that can be used to perform text feature extraction. LabelEncoder, MinMaxScaler, and StandardScaler are used for encoding categorical features and feature scaling."
+     },
+     {
+       question: "Which Scikit-learn function can be used to visualize the decision boundaries of a classification model?",
+       options: ["plot_decision_regions", "plot_confusion_matrix", "plot_roc_curve", "plot_learning_curve"],
+       correctAnswer: 0,
+       explanation: "The plot_decision_regions function in Scikit-learn can be used to visualize the decision boundaries of a classification model. plot_confusion_matrix, plot_roc_curve, and plot_learning_curve are used for other types of visualizations."
+     },
+     {
+       question: "Which Scikit-learn function can be used to perform K-Means clustering?",
+       options: ["KMeans", "RandomForestClassifier", "PCA", "LinearRegression"],
+       correctAnswer: 0,
+       explanation: "The KMeans function in Scikit-learn can be used to perform K-Means clustering. RandomForestClassifier, PCA, and LinearRegression are other machine learning models."
+     },
+     {
+       question: "Which Scikit-learn function can be used to perform feature selection?",
+       options: ["LogisticRegression", "GridSearchCV", "RandomForestClassifier", "SelectKBest"],
+       correctAnswer: 3,
+       explanation: "CountVectorizer is a function in Scikit-learn that can be used to perform text feature extraction. LabelEncoder, MinMaxScaler, and StandardScaler are used for encoding categorical features and feature scaling."
+     },
+     {
+       question: "Which Scikit-learn function can be used to perform feature selection?",
+       options: ["LogisticRegression", "GridSearchCV", "RandomForestClassifier", "SelectKBest"],
+       correctAnswer: 3,
+       explanation: "CountVectorizer is a function in Scikit-learn that can be used to perform text feature extraction. LabelEncoder, MinMaxScaler, and StandardScaler are used for encoding categorical features and feature scaling."
+     },
+     {
+       question: "Which Scikit-learn function can be used to perform feature selection?",
+       options: ["LogisticRegression", "GridSearchCV", "RandomForestClassifier", "SelectKBest"],
+       correctAnswer: 3,
+       explanation: "CountVectorizer is a function in Scikit-learn that can be used to perform text feature extraction. LabelEncoder, MinMaxScaler, and StandardScaler are used for encoding categorical features and feature scaling."
+     },
+     {
+       question: "Which Scikit-learn function can be used to perform feature selection?",
+       options: ["LogisticRegression", "GridSearchCV", "RandomForestClassifier", "SelectKBest"],
+       correctAnswer: 3,
+       explanation: "CountVectorizer is a function in Scikit-learn that can be used to perform text feature extraction. LabelEncoder, MinMaxScaler, and StandardScaler are used for encoding categorical features and feature scaling."
+     },
 ];
 
 const questionEl = document.getElementById("question");
