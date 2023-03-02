@@ -180,7 +180,9 @@ input {
 #question-code {
     background-color: black;
     color: #FF8C00;
-    padding: 0.2em 0.4em;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 1rem 1rem;
+    border-radius: 1rem;
     font-size: 16px;
     font-family: Consolas, monospace;
     display: none;

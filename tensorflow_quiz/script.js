@@ -1,7 +1,7 @@
 const questions = [
   {
     question: "What is tensorflow and what are its primary features?",
-    code: "tensorflow",
+    code: "",
     options: [
       "Tensorflow is a deep learning library that allows for efficient computation on large datasets.",
       "Tensorflow is a machine learning library that allows for efficient computation on small datasets.",
@@ -12,16 +12,25 @@ const questions = [
     explanation: "Tensorflow is an open sourcelibrary for numerical computation and machine learning. It allows for efficient computation on large datasets, and is widely used for deep learning tasks."
   },
   {
-    question: "What is tensorflow and what are its primary features?",
-    code: "",
+    question: "What is the output type of the following code?",
+    code: `
+import tensorflow as tf <br>
+<br>
+x = tf.constant(3) <br>
+y = tf.constant(4) <br>
+<br>
+z = x + y <br>
+<br>
+print(type(z)) <br>
+    `,
     options: [
-      "Tensorflow is a deep learning library that allows for efficient computation on large datasets.",
-      "Tensorflow is a machine learning library that allows for efficient computation on small datasets.",
-      "Tensorflow is a natural language processing library that allows for efficient computation on large datasets",
-      "Tensorflow is a natural language processing library that allows for efficient computation on small datasets",
+      "int32",
+      "float32",
+      "Tensor",
+      "None of the above",
     ],
-    correctAnswer: 0,
-    explanation: "Tensorflow is an open sourcelibrary for numerical computation and machine learning. It allows for efficient computation on large datasets, and is widely used for deep learning tasks."
+    correctAnswer: 2,
+    explanation: "The output type of the code is a TensorFlow tensor object."
   },
 ];
 
