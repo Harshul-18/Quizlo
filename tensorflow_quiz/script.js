@@ -312,6 +312,29 @@ const questions = [
      explanation: "Transfer learning is a technique in deep learning where a pre-trained model is used as a starting point for a new model that is designed to solve a related task. By reusing the weights learned by the pre-trained model, the new model can be trained more efficiently and with less data than would otherwise be required."
      },
      {
+     question: "What is the purpose of the following code snippet?",
+     code: `model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy']) <br>`,
+     options: [
+     "To compile the model with a categorical cross-entropy loss, accuracy metric and an Adam optimizer",
+     "To compile the model with a binary cross-entropy loss, accuracy metric and an Adam optimizer",
+     "To compile the model with a mean squared error loss, accuracy metric and an Adam optimizer",
+     "To compile the model with a mean absolute error loss, accuracy metric and an Adam optimizer",
+     ],
+     correctAnswer: 0,
+     explanation: "The <code>compile</code> function in Keras is used to configure the learning process of a model. In the code snippet above, the <code>loss</code> argument specifies the loss function to use, the <code>optimizer</code> argument specifies the optimizer to use, and the <code>metrics</code> argument specifies the metrics to use. The <code>categorical_crossentropy</code> loss function is commonly used for multiclass classification tasks, while the <code>binary_crossentropy</code> loss function is used for two class classification tasks. The <code>adam</code> optimizer is popular optimization algorithm for training neural networks. The metric used is <code>accuracy</code>."
+     },
+     {
+     question: "What is the difference between a dense layer and a convolutional layer in Keras?",
+     options: [
+     "A dense layers is used for convolutional neural netoworks, while a convolutional layer is used for fully connected neural networks.",
+     "A dense layer performs element-wise multiplication between the inputs and weights, while a convolutional layer performs a dot product between the inputs and a set of learnable filters.",
+     "A dense layer applies a fixed-size filter to the input data, while a convolutional layer applies filters of varying sizes.",
+     "A dense layer is used for feature extraction, while a convolutional layer is used for classification.",
+     ],
+     correctAnswer: 1,
+     explanation: "In Keras, a dense layer is a fully connected layer, where each neuron in the layer is connected to every neuron in the previous layer. A dense layer performs a matrix multiplication between the input data and a set of learnable weights, followed by an element-wise activation function. In contrast, a convolutional layer applies a set of learnable filters to a small region of the input data at a time, performing a dot product between the filter weights and the input data. Convolutional layers are commonly used for image and signal processing tasks, where local patterns in the input data are important.",
+     },
+     {
      question: "What is the output type of the following code?",
      code: `
      import tensorflow as tf <br>
@@ -417,4 +440,3 @@ function deselectAnswers() {
      document.getElementById("ans3").checked = false;
      document.getElementById("ans4").checked = false;
 }
-   
